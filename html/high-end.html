@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+    <link rel="manifest" href="../images/site.webmanifest">
+    <title>Reale high-end tours</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- top nav bar (desktop) starts here-->
+        <div class="nav">
+            <span class="open-slide">
+                <a href="#" onclick="openSlideMenu()">
+                    <div class="logo">
+                         <img src="./images/bar-menu-1.png">
+                  </div>
+                  <div class="logo2">
+                      <img class="R1" src="./images/RealeVR-full-logo.png">
+                  </div>
+                         
+                    
+                 </a>
+
+                <!-- Nav bar for desktop view -->
+            <div class="menu">
+                <ul>
+                    <li><a href="../index.html">home</a></li>
+                    <li><a href="./about.html">about</a></li>
+                    <li><a href="./high-end.html">high-end tours</a></li>
+                    <li><a href="./low-end.html">low-end tours</a></li>
+                    <li><a href="#" onclick="contact();">contact us</a></li>
+                    <li><a id="order" href="#" onclick="order();">order a tour</a></li>
+                </ul>
+            </div>
+
+            <!-- side menu -->
+            <div id="side-menu" class="side-nav">
+                <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+
+                <hr>
+                <a href="../index.html">real</a>
+                <a href="/about.html">about</a>
+                <a href="./high-end.html">high-end</a>
+                <a href="./low-end.html">low-end</a>
+                <a href="#" onclick="contact();">contact us</a>
+                <a href="#" onclick="order();">order a tour</a>
+
+
+            </div>
+
+            <!-- Header text -->
+            <div id="high" class="high">
+                <h1>What we do</h1>
+                <p>High-end redifined</p>
+
+                <iframe class="vr" src="https://my.matterport.com/show/?m=ax5zsDiNSut" frameborder="0" allowfullscreen allow="xr-spatial-tracking"></iframe>
+            </div>
+
+        </div>
+</body>
+<script src="../javascript/main.js"></script>
+</html>
